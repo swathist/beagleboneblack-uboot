@@ -3,7 +3,7 @@
 VERSION = 2019
 PATCHLEVEL = 04
 SUBLEVEL =
-EXTRAVERSION = Exp15-16_GPIO-Framework-LED/Switch/Buzzer
+EXTRAVERSION = Exp17_Add-blink-option-to-gpio-u-boot-command
 NAME =
 
 # *DOCUMENTATION*
