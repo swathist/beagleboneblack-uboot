@@ -3,7 +3,7 @@
 VERSION = 2019
 PATCHLEVEL = 04
 SUBLEVEL =
-EXTRAVERSION = Exp17_Add-blink-option-to-gpio-u-boot-command
+EXTRAVERSION = Exp18_Add-blink-command-in-u-boot-command-prompt
 NAME =
 
 # *DOCUMENTATION*
