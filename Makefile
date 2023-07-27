@@ -3,7 +3,7 @@
 VERSION = 2019
 PATCHLEVEL = 04
 SUBLEVEL =
-EXTRAVERSION = Exp18_Add-blink-command-in-u-boot-command-prompt
+EXTRAVERSION = Exp19_Reset_framework
 NAME =
 
 # *DOCUMENTATION*

@@ -15,6 +15,7 @@
 
 void __weak reset_cpu(unsigned long ignored)
 {
+	printf("U-Boot writel %s %s %d\n",__FILE__,__func__,__LINE__);
 	writel(PRM_RSTCTRL_RESET, PRM_RSTCTRL);
 }
 

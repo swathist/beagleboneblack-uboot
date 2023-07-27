@@ -24,10 +24,12 @@
 
 __weak void reset_misc(void)
 {
+	printf("U-Boot %s %s %d\n",__FILE__,__func__,__LINE__);
 }
 
 int do_reset(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
 {
+	printf("U-Boot Start %s %s %d\n",__FILE__,__func__,__LINE__);
 	puts ("resetting ...\n");
 
 	udelay (50000);				/* wait 50 ms */
@@ -37,6 +39,7 @@ int do_reset(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])
 	reset_misc();
 	reset_cpu(0);
 
+	printf("U-Boot End %s %s %d\n",__FILE__,__func__,__LINE__);
 	/*NOTREACHED*/
 	return 0;
 }

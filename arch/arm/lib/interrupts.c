@@ -41,6 +41,7 @@ void enable_interrupts (void)
 }
 int disable_interrupts (void)
 {
+	printf("U-Boot %s %s %d\n",__FILE__,__func__,__LINE__);
 	return 0;
 }
 
